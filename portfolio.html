@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio</title>
+        <link id="ss" rel="stylesheet" type="text/css" href="style2.css"></link>
+    </head>
+    <body>
+        <div class="header">
+            <h2 class="navbar">
+                <a class="navbar" href="index.html">Home</a>
+                Portfolio
+                <a class="navbar" href="qualifications.html">Qualifications</a>
+                <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+            <h2>
+        </div>
+
+        <div class="body-text">
+            <img id="gcp" src="https://robotwealth.com/wp-content/uploads/2017/07/google-cloud-platform.png" alt="Google Cloud Platform">
+            <h2>Here are some of the projects I've worked on!</h2>
+            <ul>
+                <li>Automated Employee List Generation in Google Cloud</li>
+                    <ul>
+                        <li>Completed as part of my internship with <a href="https://www.sabre.com/">Sabre Corporation</a> in Summer 2023</li>
+                        <li>Used the Google Cloud Platform, specifically Cloud Functions and Cloud Storage</li>
+                        <li>Wrote python code for database access and SQL for database queries</li>
+                        <li>Compiled SQL query results into a csv file and wrote to cloud storage</li>
+                        <li>Used terraform to schedule the cloud function to run daily</li>
+                        <li>Learned how to deploy code using terraform and jenkins</li>
+                    </ul>
+                    <br>
+
+                <li>Unit Testing for Python and PHP applications</li>
+                    <ul>
+                        <li>Completed as part of my internship with Sabre Corporation in Summer 2023</li>
+                        <li>Used the phpunit framework for PHP unit test automation and the pytest framework for python unit test automation</li>
+                        <li>Learned how to use <a href="https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/">mocking</a> to test functions and classes with dependencies in both python and PHP</li>
+                    </ul>
+                    <br>
+
+                <li>Web Based Point-of-Sale System for Boba Tea Shop</li>
+                    <ul>
+                        <li><a href="https://project-3-csce331-900-00p-front.vercel.app/">Website</a></li>
+                        <li>Developed a web application to handle customer, cashier and manager operations for a Boba Tea shop</li>
+                        <li>Created a GUI using Next.js for ordering items and managing restaurant information, such as inventory and sales data</li>
+                        <li>Designed and created a PostgreSQL database of five restaurant entities</li>
+                        <li>Wrote backend REST API calls to PostgreSQL database using Python Flask</li>
+                    </ul>
+                    <br>
+
+                <img id="safechat" src="safechat.jpg" alt="safechat logo">
+                <li>"Safechat" Content Moderation Discord Bot using Natural Language Processing</li>
+                    <ul>
+                        <li><a href="https://yahyasyed1-streamlit-website-tyh8x4.streamlit.app/" alt="Safechat Link">Demo Website</a></li>
+                        <li><a href="https://devpost.com/software/safechat-pfdwih">Competition Page</a></li>
+                        <li>Completed during the TAMU Datathon in 2022</li>
+                        <li>Used a Natural Language Processing model from Cohere to determine text toxicity</li>
+                        <li>Trained the model using publicly available data, primarily including twitter posts</li>
+                        <li>Deleted sent messages based on a threshold toxicity level</li>
+                        <li>Wrote a website using streamlit to showcase our project and provide an embedded demo</li>
+                        <li>Won "Best Use of Natural Language Processing by Cohere" at the TAMU Datathon</li>
+                    </ul>
+                    <br>
+                
+                <li>Science Olympiad Detector Building Event</li>
+                    <ul>
+                        <li>
+                            Built a temperature sensing device using an Arduino as well as various electrical components,
+                            including a breadboard and a thermistor
+                        </li>
+                        <li>Wrote Arduino code to calculate temperature using voltage input and a thermistor equation</li>
+                        <li>Calibrated the device experimentally using water at various temperatures</li>
+                        <li>Maintained a temperature accuracy to within three degrees fahrenheit</li>
+                        <li>Developed skills in electrical engineering, including soldering and circuitry</li>
+                    </ul>
+                    <br>
+                
+                <li>Java PONG game</li>
+                    <ul>
+                        <li>Developed a 2-D game of Pong using Java Object-Oriented Programming Principles</li>
+                        <li>Supported two players using keyboard input to control their own paddle</li>
+                    </ul>
+            </ul>
+        </div>
+        <script src="functions.js"></script>
+    </body>
+</html>

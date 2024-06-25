@@ -1,0 +1,57 @@
+.navbar {
+    text-align: center;
+    color:white;
+}
+
+.header {
+    background-color: black;
+    padding: 15px;
+}
+
+.current {
+    text-align: center;
+}
+
+#resume {
+    width: 80%;
+    height: 1000px;
+}
+
+#resumeDL {
+    text-align: center;
+    color:black;
+}
+
+div {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+
+.photo {
+    width: 600px;
+    float: right;
+}
+
+body {
+    background-color: lightblue;
+    overflow-x: hidden;
+}
+
+#gcp {
+    width: 20%;
+    float: right;
+    padding-right: 20%;
+    padding-top: 1%;
+}
+
+#safechat {
+    width: 20%;
+    float: right;
+    padding-right: 20%;
+}
+
+#big-event {
+    float: right;
+    margin-right: 10%;
+    margin-left: 2%;
+}
